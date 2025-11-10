@@ -27,7 +27,7 @@ docker-compose up
   * user: airflow
   * password: airflow
 
-### 3. Run the DAG
+## Run the DAG
 * The DAG is not scheduled. To trigger it manually, hit the trigger button next to the DAG, as below
 ![](trigger-dag-example.gif)
 * The tasks will create a new file as data/STT_AGGREGATED.csv which contains the result based on the requirements of this task.
